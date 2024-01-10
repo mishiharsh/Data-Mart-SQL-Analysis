@@ -1,0 +1,1594 @@
+use case1;
+/* CREATE TABLE */
+CREATE TABLE IF NOT EXISTS weekly_sales(
+week_date date,
+region VARCHAR( 100 ),
+platform VARCHAR( 100 ),
+segment VARCHAR( 100 ),
+customer_type VARCHAR( 100 ),
+transactions INT(11),
+sales INT(11)
+);
+
+/* INSERT QUERY */
+INSERT INTO weekly_sales( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','ASIA','Retail','C3','New',120631,3656163
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','ASIA','Retail','F1','New',31574,996575
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','USA','Retail','null','Guest',529151,16509610
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','EUROPE','Retail','C1','New',4517,141942
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','AFRICA','Retail','C2','New',58046,1758388
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','CANADA','Shopify','F2','Existing',1336,243878
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','AFRICA','Shopify','F3','Existing',2514,519502
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','ASIA','Shopify','F1','Existing',2158,371417
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','AFRICA','Shopify','F2','New',318,49557
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','AFRICA','Retail','C3','New',111032,3888162
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','USA','Shopify','F1','Existing',1398,260773
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','OCEANIA','Shopify','C2','Existing',4661,882690
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','SOUTH AMERICA','Retail','C2','Existing',1029,38762
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','SOUTH AMERICA','Shopify','C4','New',6,917
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','EUROPE','Shopify','F3','Existing',115,35215
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','OCEANIA','Retail','F3','Existing',551905,30371770
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','ASIA','Shopify','C3','Existing',1969,374327
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','AFRICA','Retail','F1','Existing',97604,5185233
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','OCEANIA','Retail','C2','New',111219,2980673
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','USA','Retail','F1','New',11820,463738
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','SOUTH AMERICA','Retail','F3','Existing',1363,65730
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','AFRICA','Retail','C3','Existing',284971,14430196
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','ASIA','Retail','F2','New',70496,2176980
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','AFRICA','Shopify','F1','Existing',2678,478756
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','USA','Shopify','C4','New',22,3319
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','CANADA','Retail','F3','Existing',94274,5306746
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','ASIA','Retail','F1','Existing',94287,4511841
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','EUROPE','Retail','null','New',3064,134249
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','EUROPE','Shopify','F1','New',7,1579
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','SOUTH AMERICA','Retail','C4','New',329,11451
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','SOUTH AMERICA','Retail','F1','Existing',854,31589
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','EUROPE','Shopify','C2','Existing',180,53567
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','EUROPE','Shopify','F2','New',15,4023
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','AFRICA','Retail','C2','Existing',112361,4768214
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','ASIA','Shopify','C2','Existing',2269,396909
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','AFRICA','Shopify','C4','New',58,8562
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','USA','Retail','F3','Existing',142898,8723663
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','OCEANIA','Shopify','C3','Existing',4703,957939
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','SOUTH AMERICA','Shopify','null','New',40,7625
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','USA','Shopify','C1','New',164,20635
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','SOUTH AMERICA','Shopify','C1','New',20,2265
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','EUROPE','Retail','C1','Existing',14583,633917
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','OCEANIA','Shopify','F2','New',452,72293
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','SOUTH AMERICA','Retail','F2','New',382,13839
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','SOUTH AMERICA','Retail','C3','Existing',1503,68009
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','CANADA','Retail','F1','New',7033,269176
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','SOUTH AMERICA','Retail','null','Existing',329,10874
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','CANADA','Retail','F1','Existing',24153,1306932
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','EUROPE','Shopify','null','Existing',15,3507
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','EUROPE','Retail','F3','Existing',18676,1144376
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','SOUTH AMERICA','Shopify','C3','New',19,3325
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','CANADA','Shopify','null','Existing',87,15074
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','CANADA','Retail','C4','Existing',29577,1473178
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','OCEANIA','Retail','F1','New',41631,1369115
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','ASIA','Retail','F3','Existing',402652,20255591
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','ASIA','Retail','null','Guest',1936351,48773122
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','ASIA','Shopify','C2','New',413,55780
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','EUROPE','Shopify','F3','New',4,554
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','USA','Retail','C2','Existing',43493,2126153
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','OCEANIA','Retail','C2','Existing',169157,6603287
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','AFRICA','Shopify','null','Guest',5893,1026838
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','ASIA','Retail','C3','Existing',245151,11086427
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','CANADA','Shopify','C4','Existing',119,19049
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','ASIA','Shopify','F2','Existing',2983,564306
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','SOUTH AMERICA','Shopify','F3','Existing',32,7331
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','USA','Retail','F1','Existing',40076,2272687
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','SOUTH AMERICA','Shopify','C4','Existing',7,1562
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','CANADA','Shopify','null','New',88,12836
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','AFRICA','Retail','C4','New',46545,1548637
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','USA','Shopify','C2','New',228,45518
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','SOUTH AMERICA','Retail','C3','New',1045,37786
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','ASIA','Shopify','C4','Existing',279,48624
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','ASIA','Retail','null','New',66042,2156778
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','AFRICA','Retail','C4','Existing',117018,5941067
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','EUROPE','Retail','F1','Existing',6769,395877
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','AFRICA','Retail','F3','Existing',403810,22712143
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','SOUTH AMERICA','Shopify','F1','Existing',74,16149
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','CANADA','Retail','F2','Existing',61517,3322211
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','EUROPE','Retail','F3','New',1655,66422
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','AFRICA','Shopify','F1','New',201,27184
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','ASIA','Shopify','null','Guest',5794,979807
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','AFRICA','Retail','F1','New',23416,833470
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','OCEANIA','Retail','F1','Existing',144056,7178808
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','OCEANIA','Retail','C4','Existing',151673,7422165
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','CANADA','Shopify','C1','Existing',585,91616
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','CANADA','Retail','F2','New',18180,661362
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','CANADA','Retail','C1','New',30402,786613
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','SOUTH AMERICA','Shopify','C1','Existing',69,11755
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','USA','Retail','C2','New',26620,883573
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','AFRICA','Retail','null','New',58165,2232935
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','CANADA','Shopify','C1','New',97,12438
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','SOUTH AMERICA','Shopify','F2','Existing',37,8473
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','EUROPE','Retail','C2','New',2857,104677
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','OCEANIA','Retail','C4','New',65594,2016930
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','EUROPE','Retail','C2','Existing',9710,461694
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','EUROPE','Shopify','C4','New',3,1221
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','OCEANIA','Shopify','C3','New',567,95547
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','USA','Retail','C1','New',36069,990085
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','ASIA','Retail','F2','Existing',220712,10624187
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','OCEANIA','Shopify','null','Guest',11218,2078649
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','USA','Shopify','C3','New',205,33536
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','AFRICA','Shopify','C1','New',299,35957
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','EUROPE','Retail','F1','New',953,40760
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','SOUTH AMERICA','Shopify','C2','New',45,8917
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','CANADA','Shopify','C3','Existing',846,154393
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','USA','Retail','C1','Existing',57648,2393490
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','EUROPE','Shopify','C1','New',21,3288
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','SOUTH AMERICA','Shopify','F2','New',9,1437
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','OCEANIA','Shopify','F3','New',190,30264
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','AFRICA','Shopify','C3','Existing',2647,530397
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','CANADA','Shopify','C4','New',21,2494
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','OCEANIA','Retail','F2','New',91435,3101538
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','EUROPE','Retail','C3','New',3843,158799
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','USA','Retail','F3','New',28987,1096531
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','ASIA','Shopify','F2','New',245,35519
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','OCEANIA','Retail','C3','Existing',339633,16520774
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','EUROPE','Shopify','C3','Existing',182,45036
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','CANADA','Shopify','F3','Existing',659,126801
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','AFRICA','Shopify','C3','New',340,56734
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','ASIA','Retail','C1','Existing',187781,6218547
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','OCEANIA','Shopify','F2','Existing',6870,1373529
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','OCEANIA','Retail','C1','New',172521,3964262
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','CANADA','Shopify','C2','New',105,14694
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','CANADA','Retail','F3','New',19524,690966
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','ASIA','Retail','C4','New',53286,1520060
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','SOUTH AMERICA','Retail','C1','New',2466,52421
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','EUROPE','Retail','null','Guest',97001,3352338
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','CANADA','Shopify','F3','New',36,6107
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','USA','Shopify','F2','Existing',2031,402380
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','AFRICA','Retail','F2','Existing',277600,14910405
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','USA','Shopify','F2','New',157,25858
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','EUROPE','Shopify','null','New',20,4085
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','OCEANIA','Shopify','C1','Existing',2801,481198
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','CANADA','Retail','null','Guest',396145,11133538
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','USA','Retail','F2','New',28592,1063716
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','CANADA','Retail','C2','Existing',23062,1001335
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','OCEANIA','Retail','null','Guest',2437738,63989387
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','EUROPE','Shopify','null','Guest',343,79359
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','OCEANIA','Shopify','F3','Existing',3920,836865
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','ASIA','Shopify','null','Existing',384,67279
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','SOUTH AMERICA','Retail','F3','New',329,11863
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','EUROPE','Retail','F2','New',1738,72565
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','OCEANIA','Retail','F3','New',110894,3749562
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','USA','Shopify','null','Existing',196,40740
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','USA','Retail','C3','Existing',102736,5786447
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','EUROPE','Retail','C4','Existing',4652,250536
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','OCEANIA','Retail','null','Existing',50786,2056315
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','SOUTH AMERICA','Shopify','F3','New',3,372
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','OCEANIA','Shopify','C4','Existing',731,136743
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','CANADA','Shopify','C3','New',115,16103
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','SOUTH AMERICA','Shopify','null','Guest',2172,407861
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','USA','Shopify','F3','New',63,10501
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','CANADA','Retail','C4','New',13579,451994
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','USA','Shopify','C4','Existing',164,29757
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','CANADA','Shopify','C2','Existing',726,125653
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','ASIA','Shopify','C3','New',247,35572
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','ASIA','Shopify','C1','New',277,35314
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','OCEANIA','Shopify','null','New',507,83877
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','ASIA','Retail','C1','New',132545,2819145
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','ASIA','Retail','F3','New',89785,2770220
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','USA','Shopify','F3','Existing',1083,224778
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','ASIA','Shopify','C1','Existing',1282,210754
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','AFRICA','Shopify','null','New',300,51883
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','OCEANIA','Shopify','C4','New',100,15077
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','SOUTH AMERICA','Retail','C4','Existing',414,18437
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','SOUTH AMERICA','Shopify','null','Existing',3,472
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','CANADA','Retail','null','Existing',8410,411147
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','EUROPE','Shopify','F2','Existing',249,55333
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','SOUTH AMERICA','Retail','C1','Existing',3087,85926
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','AFRICA','Shopify','F3','New',122,20927
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','AFRICA','Retail','null','Existing',37883,1657269
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','ASIA','Shopify','C4','New',46,6147
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','ASIA','Retail','C4','Existing',110176,4894437
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','AFRICA','Retail','null','Guest',1547309,44346247
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','OCEANIA','Shopify','F1','Existing',4498,839437
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','CANADA','Shopify','F1','Existing',789,134990
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','SOUTH AMERICA','Shopify','C3','Existing',109,23057
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','EUROPE','Retail','C4','New',1352,49263
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','ASIA','Retail','null','Existing',38663,1493771
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','AFRICA','Shopify','C2','New',389,57455
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','CANADA','Retail','null','New',14685,561282
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','USA','Retail','null','New',22186,930478
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','OCEANIA','Shopify','C2','New',842,132424
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','USA','Shopify','F1','New',135,20860
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','AFRICA','Retail','C1','Existing',186404,6891042
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','AFRICA','Shopify','C1','Existing',1689,269373
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','SOUTH AMERICA','Retail','null','Guest',413244,16755039
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','ASIA','Shopify','F1','New',228,33200
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','OCEANIA','Retail','C1','Existing',260181,9284850
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','EUROPE','Retail','F2','Existing',14482,887564
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','EUROPE','Shopify','C1','Existing',118,27732
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','AFRICA','Retail','C1','New',97673,2423159
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','ASIA','Shopify','F3','New',113,15927
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','SOUTH AMERICA','Retail','null','New',1266,44500
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','SOUTH AMERICA','Shopify','F1','New',6,623
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','USA','Retail','C3','New',46838,1769576
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','USA','Retail','C4','New',18774,665292
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','USA','Retail','C4','Existing',40024,2186307
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','USA','Shopify','C2','Existing',1420,277104
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','ASIA','Retail','C2','New',87269,2234801
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','USA','Shopify','null','New',154,25762
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','USA','Shopify','C3','Existing',1501,312519
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','EUROPE','Shopify','C4','Existing',22,4971
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','CANADA','Retail','C3','Existing',62206,3227065
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','CANADA','Shopify','null','Guest',1621,269863
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','AFRICA','Retail','F2','New',65304,2291992
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','EUROPE','Retail','null','Existing',3211,150741
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','ASIA','Shopify','null','New',278,46931
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','EUROPE','Shopify','F1','Existing',138,30015
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','USA','Retail','F2','Existing',96079,5527494
+);
+
+/* INSERT QUERY */
+INSERT INTO WEEKLY_SALES( week_date,region,platform,segment,customer_type,transactions,sales )
+VALUES
+(
+    '2020/8/31','USA','Shopify','C1','Existing',739,128749
+);
+
+
+#########################################################################################################################
+
+
+## Data Cleansing
+CREATE TABLE clean_weekly_sales AS
+SELECT
+  week_date,
+  week(week_date) AS week_number,
+  month(week_date) AS month_number,
+  year(week_date) AS calendar_year,
+  region,
+  platform,
+  CASE
+    WHEN segment = 'null' THEN 'Unknown'
+    ELSE segment
+    END AS segment,
+  CASE
+    WHEN right(segment, 1) = '1' THEN 'Young Adults'
+    WHEN right(segment, 1) = '2' THEN 'Middle Aged'
+    WHEN right(segment, 1) IN ('3', '4') THEN 'Retirees'
+    ELSE 'Unknown'
+    END AS age_band,
+  CASE
+    WHEN left(segment, 1) = 'C' THEN 'Couples'
+    WHEN left(segment, 1) = 'F' THEN 'Families'
+    ELSE 'Unknown'
+    END AS demographic,
+  customer_type,
+  transactions,
+  sales,
+  ROUND(
+      sales / transactions,
+      2
+   ) AS avg_transaction
+FROM weekly_sales;
+
+select * from clean_weekly_sales limit 10;
+
+Data Exploration
+
+
+1.How many total transactions were there for each year in the dataset?
+SELECT
+  calendar_year,
+  SUM(transactions) AS total_transactions
+FROM clean_weekly_sales group by calendar_year;
+
+2.What are the total sales for each region for each month?
+
+SELECT
+  month_number,
+  region,
+  SUM(sales) AS total_sales
+FROM clean_weekly_sales
+GROUP BY month_number, region
+ORDER BY month_number, region;
+
+3.What is the total count of transactions for each platform
+
+SELECT
+  platform,
+  SUM(transactions) AS total_transactions
+FROM clean_weekly_sales
+GROUP BY platform;
+
+ 4.What is the percentage of sales by demographic for each year in the dataset?
+
+SELECT
+  calendar_year,
+  demographic,
+  SUM(SALES) AS yearly_sales,
+  ROUND(
+    (
+      100 * SUM(sales)/
+        SUM(SUM(SALES)) OVER (PARTITION BY demographic)
+    ),
+    2
+  ) AS percentage
+FROM clean_weekly_sales
+GROUP BY
+  calendar_year,
+  demographic
+ORDER BY
+  calendar_year,
+  demographic;
+  
+5.Which age_band and demographic values contribute the most to Retail sales?
+
+SELECT
+  age_band,
+  demographic,
+  SUM(sales) AS total_sales
+FROM clean_weekly_sales
+WHERE platform = 'Retail'
+GROUP BY age_band, demographic
+ORDER BY total_sales DESC;
+
+
+
+
+
+
+
+
